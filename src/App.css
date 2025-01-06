@@ -1,0 +1,19 @@
+.footer {
+  width: auto;
+  height: 507px;
+  background: #E7F1F2;
+}
+.footer h4 {
+  width: 433px;
+height: 64px;
+margin-top: 500px;
+margin-left: 150px;
+font-family: Mulish;
+font-size: 22px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #232323;
+}

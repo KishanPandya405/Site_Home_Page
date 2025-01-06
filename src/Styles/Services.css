@@ -1,0 +1,86 @@
+.services {
+  width: 100%; /* Adjust to use full width on smaller screens */
+  max-width: 1200px;
+  margin: 30px auto; /* Centered horizontally */
+  padding: 0 20px; /* Add padding for better appearance */
+  height: auto; /* Allow flexible height */
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping for sub-services */
+  gap: 20px; /* Add spacing between items */
+  opacity: 1; /* Ensure it is visible */
+}
+
+.sub-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content within the sub-service block */
+  width: 100%;
+  max-width: 300px; /* Restrict maximum width for consistency */
+  height: auto; /* Adjust height dynamically */
+  margin: 20px auto; /* Add vertical and horizontal spacing */
+  opacity: 1;
+  text-align: center;
+}
+
+.sub-services img {
+  margin: 20px auto; /* Center image */
+  width: 100px; /* Adjust size for smaller screens */
+  height: auto;
+}
+
+.sub-services h4 {
+  margin-top: 15px;
+  font-size: 20px; /* Reduce font size on smaller screens */
+  line-height: 1.4;
+  color: #232323;
+}
+
+.sub-services p {
+  margin-top: 10px;
+  font-size: 14px; /* Adjust font size */
+  line-height: 1.5;
+  color: #606060;
+}
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column; /* Stack services vertically */
+    align-items: center;
+  }
+
+  .sub-services {
+    max-width: 90%; /* Allow more width on smaller screens */
+  }
+
+  .sub-services img {
+    width: 80px; /* Smaller image size */
+  }
+
+  .sub-services h4 {
+    font-size: 18px;
+  }
+
+  .sub-services p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sub-services {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .sub-services img {
+    width: 60px;
+  }
+
+  .sub-services h4 {
+    font-size: 16px;
+  }
+
+  .sub-services p {
+    font-size: 12px;
+  }
+}

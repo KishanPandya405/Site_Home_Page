@@ -1,0 +1,59 @@
+.about {
+    width: auto;
+  height: 942px;
+  margin-top: 10px;
+  margin-left: 41px;
+  gap: 0px;
+  opacity: 1;
+  }
+  
+  .sub-about h3 {
+    width: 204px;
+  height: 59px;
+  margin-top: -500px;
+  margin-left: 162px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Mulish;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 58.99px;
+  letter-spacing: 0.1599999964237213px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #232323;
+  }
+  
+  .sub-about p {
+    width: 430px;
+  height: 69px;
+  top: 551px;
+  margin-left: 162px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.59px;
+  letter-spacing: 0.10285714268684387px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #606060;
+  }
+  
+  .sub-about button {
+    width: 150px;
+    height: 35px;
+    margin-left: 162px;
+    border-radius: 30px;
+    background-color: rgb(241, 85, 85);
+    border: none;
+  }
+  
+  #image2 {
+    margin-top: -300px;
+    margin-left: 300px;
+  }
+  
